@@ -19,7 +19,6 @@ end
 
 local function HideStanceBar()
 	StanceBarFrame:Hide(); 
-	StanceBarFrame.Show = nop;
 end
 
 HideArt();
